@@ -16,7 +16,17 @@
 // Revision: 
 // Revision 0.01 - File Created
 // Additional Comments: 
-
+//
+//////////////////////////////////////////////////////////////////////////////////
+module clk_div
+    (
+     input mclk,
+	  input rst,
+	  output clk
+	 );
+	 
+   reg clk;
+   
 	always@(posedge mclk or posedge rst)
 	  if (rst)
 	      clk <= 0;
