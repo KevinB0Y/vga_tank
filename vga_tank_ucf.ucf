@@ -1,0 +1,19 @@
+
+NET "mclk"  LOC = V10;
+NET "rst"   LOC = C9;
+
+NET "vsync" LOC = P7;
+NET "hsync" LOC = N6;
+
+NET "btn"   LOC = A8;
+NET "start" LOC = T5;
+
+NET "rgb_8bits[0]" LOC = R7;
+NET "rgb_8bits[1]" LOC = T7;
+NET "rgb_8bits[2]" LOC = P8;
+NET "rgb_8bits[3]" LOC = T6;
+NET "rgb_8bits[4]" LOC = V6;
+NET "rgb_8bits[5]" LOC = U7;
+NET "rgb_8bits[6]" LOC = V7;
+NET "rgb_8bits[7]" LOC = N7;
+
